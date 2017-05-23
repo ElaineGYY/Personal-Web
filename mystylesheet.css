@@ -1,0 +1,143 @@
+/* Colors */
+.E-pale-red,.E-hover-pale-red:hover{
+		color:#000!important;
+		background-color:#ffdddd!important
+}
+.E-pink,.E-hover-pink:hover{
+		color:#fff!important;
+		background-color:#e91e63!important
+}
+.E-white,.E-hover-white:hover{
+		color:#000!important;
+		background-color:#fff!important
+}
+.E-black,.E-hover-black:hover {
+		color:#fff!important;
+		background-color:#000!important
+}
+.E-text-white,.E-hover-text-white:hover {
+		color:#fff!important
+}
+.E-text-pink {
+		color:#e91e63!important
+}
+/* Structure */
+.E-h1 {
+		font-family:chalkduster;
+		font-size:50px;
+}
+.E-content {
+		max-width:980px;
+		margin:auto
+}
+.E-margin {
+		margin:16px!important
+}
+.E-margin-top{
+		margin-top:16px!important
+}
+.E-margin-bottom{
+		margin-bottom:16px!important
+}
+.E-row-padding:after,.E-row-padding:before {
+		content:"";
+		display:table;
+		clear:both
+}
+.E-col,.E-third,.E-twothird {
+		float:left;
+		width:100%
+}
+@media (min-width:601px)
+		{.E-col.m1 {
+				width:8.33333%;
+				position:fixed
+		 }
+		 .E-third {
+		 		width:25%
+		 }
+		 .E-twothird {
+		 		width:60%;
+		 		margin-left:2%
+		 }
+.E-card-2 {
+		box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.E-card-4 {
+		box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+.E-display-container {
+		position:relative
+}
+.E-container {
+		padding:0.01em 16px 
+}
+.E-margin-right {
+		margin-right:16px!important
+}
+.E-margin-top {
+		margin-top:16px!important
+}
+.E-margin-bottom {
+		margin-bottom:16px!important
+}
+.E-small {
+		font-size:12px!important
+}
+.E-large {
+		font-size:18px!important
+}
+.E-round-xlarge {
+		border-radius:16px
+}
+.E-center {
+		text-align:center!important
+}
+.E-padding-16 {
+		padding-top:16px!important;
+		padding-bottom:16px!important
+}
+.E-opacity {
+		opacity:0.60;
+		font-size: 20px
+}
+.E-sideul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:auto;
+		width:140px;
+		float:right; 
+		position:fixed; 
+		right:13px;
+		top:200px;
+		text-align:center
+}
+.E-barele {
+		float: down
+}
+.E-liact {
+		display:inline-block;
+		text-align:center;
+		padding:12px 10px;
+		text-decoration:none;
+		font-size:16px
+}
+.E-animat {
+   	    width: 900px;
+  	    height: 150px;
+
+        position: relative;
+        -webkit-animation: myimage 5s linear 2s infinite alternate;
+        animation: myimage 5s linear 2s infinite alternate
+}
+@-webkit-keyframes myimage {
+    		0%   {left:0px; top:0px;}
+    		100% {left:36%; top:0px;}
+}
+@keyframes myimage {
+  		    0%   {left:0px; top:0px;}
+ 		    100% {left:36%; top:0px;}
+}
+
+
